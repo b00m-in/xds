@@ -1,0 +1,18 @@
+{
+	"Name": "builder",
+	"DisplayName": "Go Builder",
+	"Description": "Run the Go Builder",
+	
+	"Dir": "/github.com/b00m-in/gin/",
+	"Exec": "/github.com/b00m-in/gin/gin",
+	"Args": ["-c","config/b00m.config"],
+	"Env": [
+		"",
+		"",
+		"",
+		""
+	],
+	
+	"Stderr": "/github.com/b00m-in/xds/log/out.log",
+	"Stdout": "/github.com/b00m-in/xds/log/out.log"
+}
